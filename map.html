@@ -4,9 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Map</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>  
+<link href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css" rel="stylesheet">
+
+<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+
+<div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['อุณหภูมิ(C)',     35],
+          ['ความชื้นในอากาศ(%)',      100],
+          ['ความชื้นในดิน(%)',  49],
+          ['ระดับน้ำ(mm)', 76],
+          ['เเสง(lux)',    987]
+        ]);
+
+        var options = {
+          title: 'สภาพอากาศ'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    </div>
+    <style>
+         h1, h2, h3, h4, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th , display-4 {
+font-family: "Prompt", "Open Sans script=all rev=1" !important;
+font-weight: 700 !important;
+         }
+         ิh5{
+           margin: 0 0 10px;
+           padding: 0;
+           font-size: 24px;
+         }
+         input [type="text"] {
+           border: none;
+           outline: none;
+           border-radius: 25px 0 0 25px;
+         }
+         input [type="submit"]{
+          border-radius: 25px 0 0 25px;
+          border: none;
+           outline: none;
+           cursor: pointer;
+           background-color: #ffc107;
+           color:aliceblue
+         }
+         input [type="submit"]:hover{
+           background: #ff5722;
+         }
+           
+         
+    </style>
+    
 </head>
-<body>
+<body> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h4>สถานที่พารามิเตอร์ในประเทศไทย</h4>
+                <h5><font color="#DCDCDC">เเยกตามจังหวัด</font></h5>
+                <p><font color="#DCDCDC">อัปเดตล่าสุด 27/05/2021</font></p>
+                <div class="box">
+                  <h5>Search</h5>
+                  <form>
+                    <input type="text" name="" placeholder="ค้นหา ชื่อสถานที่ จังหวัด อำเภอ ตำบล">
+                    <input type="submit" name="" value="Seaech">
+                  </form>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                          <th scope="col">ที่ตั้ง</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์  ถ. พหลโยธิน ตำบล คลองหนึ่ง อำเภอคลองหลวง ปทุมธานี 13180</td>
+                        </tr>
+                        <tr>
+                          <td>สถานีตำรวจทางหลวง1 กองกำกับการ1 กองบังคับการตำรวจทางหลวง ตำบล เชียงรากน้อย อำเภอบางปะอิน จังหวัดพระนครศรีอยุธยา 12120</td>
+                        </tr>
+                        <tr>
+                          <td>-</td>
+                        </tr>
+                        <tr>
+                          <td>-</td>
+                        </tr>
+                      </tbody>  
+                  </table>
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.044619552946!2d100.61188501431545!3d14.133473642143308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc29f09e78f032b96!2sValaya%20Alongkorn%20Rajabhat%20University!5e0!3m2!1sen!2sth!4v1622091961620!5m2!1sen!2sth" width="500" height="600" style="border:0; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col">
+                
+                <div id="piechart" style="width: 500px; height: 500px;">
+                   
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
