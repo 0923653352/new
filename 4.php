@@ -1,14 +1,9 @@
     <a name=sec4>
     <div style="padding-left:1cm; background-color:#e6e6e6 ;">
-    <h4>ข้อมูลสภาพอากาศ</h4>
-    <h5><font color="#DCDCDC">ได้ที่สถานที่ใดบ้าง</font></h5>
+    <h4>ข้อมูลสถานีสภาพอากาศ</h4>
+    <h5><font color="#DCDCDC">ได้วันที่ใดบ้าง</font></h5>
     <p><font color="#DCDCDC">อัปเดตล่าสุด 27/05/2021</font></p>
-    <div class="box">
-        <h5>Search</h5>
-        
-        <form>
-        <input type="text" name="" placeholder="ค้นหา ชื่อสถานที่ จังหวัด อำเภอ ตำบล">
-        <input type="submit" name="" value="Seaech">
+   
 
         <div class="dropdown"  >&nbsp;&nbsp;&nbsp;        
             <button class="dropbtn">พารามิเตอร์<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -76,25 +71,19 @@
         </form>
     </div>
 
-
-        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+        
         <div class="carousel-inner">
             <div class="carousel-item active">
         <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">ที่ตั้ง</th>
-                <th scope="col"><div style="background:#009f88;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#0066ff;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#5b3701;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#93b200;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#00388d;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#009653;  width: 20px; height: 20px;"></div></th>
+                <th scope="col">อุณหภูมิ (C)</th>
+                <th scope="col">ความชื้นในอากาศ (%)</th>
+                <th scope="col">ความชื้นในดิน (%)</th>
+                <th scope="col">เเสง (lux)</th>
+                <th scope="col">คุณภาพน้ำ (PH)</th>
+                <th scope="col">ระดับน้ำ (mm)</th>
                 <th scope="col">ดาวน์โหลด</th>
                 </tr>
             </thead>
@@ -162,17 +151,19 @@
             </tbody>  
         </table>
         </div>
+
+        
         <div class="carousel-item">
         <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">ที่ตั้ง</th>
-                <th scope="col"><div style="background:#009f88;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#0066ff;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#5b3701;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#93b200;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#00388d;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#009653;  width: 20px; height: 20px;"></div></th>
+                <th scope="col">อุณหภูมิ (C)</th>
+                <th scope="col">ความชื้นในอากาศ (%)</th>
+                <th scope="col">ความชื้นในดิน (%)</th>
+                <th scope="col">เเสง (lux)</th>
+                <th scope="col">คุณภาพน้ำ (PH)</th>
+                <th scope="col">ระดับน้ำ (mm)</th>
                 <th scope="col">ดาวน์โหลด</th>
                 </tr>
             </thead>
@@ -240,17 +231,19 @@
             </tbody>  
         </table>
         </div>
+
+        
         <div class="carousel-item">
         <table class="table table-striped">
             <thead>
                 <tr>
                 <th scope="col">ที่ตั้ง</th>
-                <th scope="col"><div style="background:#009f88;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#0066ff;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#5b3701;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#93b200;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#00388d;  width: 20px; height: 20px;"></div></th>
-                <th scope="col"><div style="background:#009653;  width: 20px; height: 20px;"></div></th>
+                <th scope="col">อุณหภูมิ (C)</th>
+                <th scope="col">ความชื้นในอากาศ (%)</th>
+                <th scope="col">ความชื้นในดิน (%)</th>
+                <th scope="col">เเสง (lux)</th>
+                <th scope="col">คุณภาพน้ำ (PH)</th>
+                <th scope="col">ระดับน้ำ (mm)</th>
                 <th scope="col">ดาวน์โหลด</th>
                 </tr>
             </thead>
@@ -319,14 +312,17 @@
         </table>
         </div>
     </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+        
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="">&laquo;</a></li>
+                <li class="page-item active"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+        </nav>
+        
 
-    </div>
+
+    

@@ -10,35 +10,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>  
-    <title>เช็คสถานการณ์ Covid-19 ได้ที่นี่</title>
+    
+<title>เช็คสถานการณ์ Covid-19 ได้ที่นี่</title>
    
-<div>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['อุณหภูมิ(C)',     35],
-          ['ความชื้นในอากาศ(%)',      100],
-          ['ความชื้นในดิน(%)',  49],
-          ['ระดับน้ำ(mm)', 76],
-          ['เเสง(lux)',    987]
-        ]);
-
-        var options = {
-          title: 'สภาพอากาศ'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-    </div>
       <script id="kaw" type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -46,19 +21,19 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['month', 'เเสง(lux)', 'ความชื้นในอากาศ(%)' ],
-          ['เดือนที่1',  1000,      400],
-          ['เดือนที่2',  1170,      460],
-          ['เดือนที่3',  660,       1120],
-          ['เดือนที่4',  1030,      540],
-          ['เดือนที่5',  1000,      400],
-          ['เดือนที่6',  1170,      460],
-          ['เดือนที่7',  660,       1120],
-          ['เดือนที่8',  1030,      540],
-          ['เดือนที่9',  1000,      400],
-          ['เดือนที่10',  1170,      460],
-          ['เดือนที่11',  660,       1120],
-          ['เดือนที่12',  1030,      540]
+          ['month', 'เเสง(lux)' ],
+          ['เดือนที่1',  1000],
+          ['เดือนที่2',  1170],
+          ['เดือนที่3',  660],
+          ['เดือนที่4',  1030],
+          ['เดือนที่5',  1000],
+          ['เดือนที่6',  1170],
+          ['เดือนที่7',  660],
+          ['เดือนที่8',  1030],
+          ['เดือนที่9',  1000],
+          ['เดือนที่10',  1170],
+          ['เดือนที่11',  660],
+          ['เดือนที่12',  1030]
         ]);
 
         var options = {
@@ -139,6 +114,7 @@
     <?php include('3.php');  ?>
 
     <?php include('4.php');  ?>
+    
    
 </body>
 </html>

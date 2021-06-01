@@ -27,8 +27,13 @@
                           <td>วัดตะโก หลวงพ่อรวย  31หมู่2 ดอนหญ้านาง อำเภอ ภาชี จังหวัดพระนครศรีอยุธยา 13140</td>
                         </tr>
                          <tr>
-                           <td>วัดพระธาตุดอยสุเทพราชวรวิหาร 9 หมู่ที่ 9 อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200
-                          </td>
+                           <td>วัดพระธาตุดอยสุเทพราชวรวิหาร 9 หมู่ที่ 9 อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200</td>
+                        </tr>
+                        <tr>
+                           <td>ดอยอินทนนท์ ตำบล บ้านหลวง อำเภอจอมทอง เชียงใหม่ 50270 </td>
+                        </tr>
+                        <tr>
+                           <td>ดอยเสมอดาว ตำบล ศรีษะเกษ อำเภอนาน้อย น่าน 55150 </td>
                         </tr>
                       </tbody>  
                   </table>
@@ -36,9 +41,9 @@
             <div class="col">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.044619552946!2d100.61188501431545!3d14.133473642143308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc29f09e78f032b96!2sValaya%20Alongkorn%20Rajabhat%20University!5e0!3m2!1sen!2sth!4v1622091961620!5m2!1sen!2sth" width="500" height="600" style="border:0; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="col">
+            <!-- <div class="col"> -->
                 
-                <div id="piechart" style="width: 500px; height: 500px;">
+                <!-- <div id="piechart" style="width: 500px; height: 500px;"> -->
                   
             </div>
         </div>
