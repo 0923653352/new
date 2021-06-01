@@ -1,5 +1,4 @@
-<a name=sec1>
-  <section id="hero">
+<section id="hero">
       <section id="nav-bar">
               <nav class="navbar navbar-expand-lg navbar-light ">
               <div class="container-fluid">
@@ -27,4 +26,4 @@
                 </div>
             </nav>
          </section>
-    </section>
+         

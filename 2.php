@@ -5,13 +5,7 @@
                 <h4>สถานที่พารามิเตอร์ในประเทศไทย</h4>
                 <h5><font color="#DCDCDC">เเยกตามจังหวัด</font></h5>
                 <p><font color="#DCDCDC">อัปเดตล่าสุด 27/05/2021</font></p>
-                <div class="box">
-                  <h5>Search</h5>
-                  <form>
-                    <input type="text" name="" placeholder="ค้นหา ชื่อสถานที่ จังหวัด อำเภอ ตำบล">
-                    <input type="submit" name="" value="Seaech">
-                  </form>
-                </div>
+               
                 <table class="table table-striped">
                     <thead>
                         <tr>
