@@ -1,5 +1,6 @@
 <a name=sec2>
-    <div class="container-fluid" style="padding-left: 1cm;">
+  <br><br>
+    <div class="container-fluid"  style="padding-left: 1cm;">
         <div class="row">
             <div class="col">
                 <h4>สถานที่พารามิเตอร์ในประเทศไทย</h4>
@@ -38,14 +39,51 @@
                       </tbody>  
                   </table>
             </div>
-            <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.044619552946!2d100.61188501431545!3d14.133473642143308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc29f09e78f032b96!2sValaya%20Alongkorn%20Rajabhat%20University!5e0!3m2!1sen!2sth!4v1622091961620!5m2!1sen!2sth" width="500" height="600" style="border:0; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <!-- <div class="col"> -->
-                
-                <!-- <div id="piechart" style="width: 500px; height: 500px;"> -->
-                  
+            <div id="map"></div>
+    <script>
+
+		var locations = [
+		  ['วัดลาดปลาเค้า', 13.846876, 100.604481],
+		  ['หมู่บ้านอารียา', 13.847766, 100.605768],
+		  ['สปีดเวย์', 13.845235, 100.602711],
+		  ['สเต็ก ลุงหนวด',13.862970, 100.613834]
+		];
+
+      function initMap() {
+			var mapOptions = {
+			  center: {lat: 13.847860, lng: 100.604274},
+			  zoom: 15,
+			}
+				
+			var maps = new google.maps.Map(document.getElementById("map"),mapOptions);
+			
+			var marker, i, info;
+
+			for (i = 0; i < locations.length; i++) {  
+
+				marker = new google.maps.Marker({
+				   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+				   map: maps,
+				   title: locations[i][0]
+				});
+
+				info = new google.maps.InfoWindow();
+
+			  google.maps.event.addListener(marker, 'click', (function(marker, i) {
+				return function() {
+				  info.setContent(locations[i][0]);
+				  info.open(maps, marker);
+				}
+			  })(marker, i));
+
+			}
+
+		}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK3RgqSLy1toc4lkh2JVFQ5ipuRB106vU&callback=initMap" async defer></script>
+           
+    </div>
             </div>
         </div>
-        </div>
-      </div>
+       
+     
