@@ -19,7 +19,7 @@
                       </font>
                 </div>
               </div>
-          </div>
+            </div>
         </div>
               
   <div class="col">    
@@ -28,13 +28,13 @@
             <div class="content">
                 <div class="card " style="  background-color:#009f98;">
                     <div class="card-body">
-                        <h3 class="card-title ">อุณหภูมิ
-                            <div class="text-center display-7">
+                        <h3 class="card-title h6 ">อุณหภูมิ
+                            <div class="text-center h4">
                               35 C
                             </div>
                         </h3>
                          <p class="card-text " ><a href="#" class="btn btn-light">
-                            <svg xmlns="http://www.w3.org/2000/svg" color="#ea5771" width="25" height="25" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" color="#ea5771" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
                               <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
                               <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
                           </svg>
@@ -44,8 +44,8 @@
                                     <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1zm5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm4.243 1.757a.5.5 0 0 1 0 .707l-.707.708a.5.5 0 1 1-.708-.708l.708-.707a.5.5 0 0 1 .707 0zM8 5.5a.5.5 0 0 1 .5-.5 3 3 0 1 1 0 6 .5.5 0 0 1 0-1 2 2 0 0 0 0-4 .5.5 0 0 1-.5-.5zM12.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 1 1 0 1h-1a.5.5 0 0 1-.5-.5zm-1.172 2.828a.5.5 0 0 1 .708 0l.707.708a.5.5 0 0 1-.707.707l-.708-.707a.5.5 0 0 1 0-.708zM8.5 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5z"/>
                                 </svg>
                           </font>
-                        </a>
-                      </p>
+                          </a>
+                        </p>
                 </div>  
               </div>  
           </div>  

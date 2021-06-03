@@ -1,8 +1,14 @@
     <a name=sec4>
         <div style="padding-left:1cm; background-color:#e6e6e6 ;">
-                <h4>ข้อมูลสถานีสภาพอากาศ</h4>
-                <h5><font color="#DCDCDC">ได้วันที่ใดบ้าง</font></h5>
-                <p><font color="#DCDCDC">อัปเดตล่าสุด 27/05/2021</font></p>
+                <h4>
+                    ข้อมูลสถานีสภาพอากาศ
+                </h4>
+                <h5>
+                    <font color="#DCDCDC">ได้วันที่ใดบ้าง</font>
+                </h5>
+                <p>
+                    <font color="#DCDCDC">อัปเดตล่าสุด 27/05/2021</font>
+                </p>
             
 
                     <select class="form-select-indicator" style="width: 90px; height: 30px;" aria-label="Default select example">&nbsp;&nbsp;&nbsp;        

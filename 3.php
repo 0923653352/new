@@ -75,6 +75,5 @@
           </center>
 
         <center>
-        <div id="curve_chart" style="width: 100%; height: 600px;   " ></div> 
-        
-      </center>&nbsp;&nbsp;&nbsp;  
+            <div id="curve_chart" style="width: 100%; height: 600px;   " ></div> 
+        </center>&nbsp;&nbsp;&nbsp;  
