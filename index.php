@@ -65,13 +65,7 @@
         
       }
 
-      .item {
-        box-sizing: border-box;
-        width: 30%;
-        margin-bottom: 20px;
-        padding: 0px 0px;
-        
-      }
+     
 
       .content {
         color: #ffffff;

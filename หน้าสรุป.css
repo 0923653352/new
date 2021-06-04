@@ -91,34 +91,4 @@ border: none !important;
 }
 
 
-#flexbox.flexbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    margin: 0px 0px;
-}
 
-#item.item {
-    box-sizing: border-box;
-    width: 180px;
-    margin-bottom: 0px;
-    padding: 0px 0px;
-}
-
-#content.content {
-    color: #242424;
-    font-weight: 600;
-    text-align: center;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 10px;
-}
-
-h1, h2, h3, h4, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th , display-4 {
-    font-family: "Prompt", "Open Sans script=all rev=1" !important;
-    font-weight: 700 !important;
-
-    }
