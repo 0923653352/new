@@ -49,33 +49,30 @@
     </script>
 </head>
 <style>
-      h1, h2, h3, h4, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th , display-4 {
-    font-family: "Prompt", "Open Sans script=all rev=1" !important;
-    font-weight: 700 !important;
+          h1, h2, h3, h4, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th , display-4 {
+        font-family: "Prompt", "Open Sans script=all rev=1" !important;
+        font-weight: 700 !important;
 
         }
-      .flexbox {
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        justify-content: flex-end;
-        align-items: stretch;
-        box-sizing: border-box;
-        margin: 0px 0px;
-        
-      }
-
-     
-
-      .content {
-        color: #ffffff;
-        font-weight: 600;
-        text-align: center;
-        box-sizing: border-box;
-        height: 140px;
-        padding: 10px;
-      }
-ิ     h5{
+        .flexbox {
+          display: flex;
+          flex-direction: row;
+          flex-wrap:wrap;
+          justify-content: flex-end;
+          align-items: stretch;
+          box-sizing: border-box;
+          margin: 0px 0px;
+          
+        }
+        .content {
+          color: #ffffff;
+          font-weight: 600;
+          text-align: center;
+          box-sizing: border-box;
+          height: 140px;
+          padding: 10px;
+        }
+ิ        h5{
            margin: 0 0 10px;
            padding: 0;
            font-size: 24px;
@@ -86,32 +83,32 @@
            border-radius: 25px 0 0 25px;
          }
          input [type="submit"]{
-          border-radius: 25px 0 0 25px;
-          border: none;
-           outline: none;
-           cursor: pointer;
-           background-color: #ffc107;
-           color:aliceblue
+            border-radius: 25px 0 0 25px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background-color: #ffc107;
+            color:aliceblue
          }
          input [type="submit"]:hover{
            background: #ff5722;
          }
           /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-      #map {
-        height: 100%;
-          }
-      /* Optional: Makes the sample page fill the window. */
-      html {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+        #map {
+          height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
 
-      #map {
-        height: 500px;
-        width: 600px;
-      }
+        #map {
+          height: 500px;
+          width: 600px;
+        }
 </style>
 <body>
    

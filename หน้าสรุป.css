@@ -10,7 +10,6 @@ html body{
 }
 a{
     text-decoration: none;
-
 }
 .container{
     min-height: 100vh;
@@ -75,7 +74,7 @@ color: #FFFF
 
 }
 .navbar-toggler{
-border: none !important;
+    border: none !important;
 }
 .nav-like{
     color: rgb(255, 255, 255) ;
