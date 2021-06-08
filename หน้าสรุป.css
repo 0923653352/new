@@ -1,36 +1,40 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html body{
+
+html body {
     font-size: 10px;
     font-family: 'Prompt', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     min-height: 100vh;
     padding: 10rem;
     width: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: left;
 }
-#hero{
-    background-image:url(mountain.png) ;
+
+#hero {
+    background-image: url(mountain.png);
     background-size: cover;
     background-position: top center;
     /* background-color:#353538; */
     position: relative;
 }
-#hero::after{
+
+#hero::after {
     content: '';
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     height: 100%;
     width: 100%;
     /* background-color:#353538; */
@@ -38,56 +42,61 @@ a{
     z-index: -1;
 
 }
-#hero h1{
+
+#hero h1 {
     display: block;
     width: fit-content;
     font-size: 5rem;
     position: relative;
-    
-    
+
+
 }
-#hero h2{
+
+#hero h2 {
     display: block;
     width: fit-content;
     font-size: 4rem;
     position: relative;
-color: #FFFF
+    color: #FFFF
 }
-#nav-bar{
+
+#nav-bar {
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 10;
-    
-}
-.navbar-brand font{
-    height: 40px;
-    padding-left: 30px ;
 
 }
+
+.navbar-brand font {
+    height: 40px;
+    padding-left: 30px;
+
+}
+
 .navbar-nav li {
     padding: 0 10px;
 }
 
 
-.navbar{
+.navbar {
     background: #353538;
 
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: none !important;
 }
-.nav-like{
-    color: rgb(255, 255, 255) ;
+
+.nav-like {
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 16px;
 
 }
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
 
 }
-
-
-
