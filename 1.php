@@ -1,4 +1,5 @@
-  <a name=sec1>
+  <div>
+      <a name=sec1></a>
       <div class="container">
           <div class="row">
               <div class="col">
@@ -30,6 +31,8 @@
       </div>
 
       <div class="col">
+
+
           <div class="flexbox">
               <div class="item">
                   <div class="content">
@@ -178,5 +181,5 @@
                   </div>
               </div>
           </div>
-
-          </section>
+      </div>
+  </div>

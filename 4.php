@@ -1,5 +1,6 @@
-    <a name=sec4>
-        <div style="padding-left:1cm; background-color:#e6e6e6 ;">
+    <div class="p-5" style=" background-color:#e6e6e6 ;">
+        <a name=sec4></a>
+        <div>
             <h4>
                 ข้อมูลสถานีสภาพอากาศ
             </h4>
@@ -325,3 +326,4 @@
                 <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
             </ul>
         </nav>
+    </div>

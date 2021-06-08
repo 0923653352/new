@@ -1,5 +1,6 @@
-<a name=sec3>
-    <center style="padding-right: 500px;">
+<div>
+    <a name=sec3></a>
+    <center>
         <select class="form-select-indicator" style="width: 90px; height: 30px;" aria-label="Default select example">
             <option selected>ประเทศไทย</option>
 
@@ -126,3 +127,4 @@
             }
         </script>
     </center>&nbsp;&nbsp;&nbsp;
+</div>

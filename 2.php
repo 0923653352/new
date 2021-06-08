@@ -1,6 +1,7 @@
-<a name=sec2>
+<div class="container-fluid p-5">
+    <a name=sec2></a>
     <br><br>
-    <div class="container-fluid" style="padding-left: 1cm;">
+    <div>
         <div class="row">
             <div class="col">
                 <h4>สถานที่พารามิเตอร์ในประเทศไทย</h4>
@@ -100,4 +101,4 @@
 
         </div>
     </div>
-    </div>
+</div>

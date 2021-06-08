@@ -21,11 +21,11 @@
 
 
 <body>
+    <section id="hero">
+        <?php include('heater.php');  ?>
 
-    <?php include('heater.php');  ?>
-
-    <?php include('1.php');  ?>
-
+        <?php include('1.php');  ?>
+    </section>
     <?php include('2.php');  ?>
 
     <?php include('3.php');  ?>
