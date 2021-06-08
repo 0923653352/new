@@ -10,7 +10,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style=" padding: 0 5px 0 300px;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 " style=" padding: 0 5px 0 300px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#sec1">
                             <font color="#FFFFFF">Home</font>
@@ -32,7 +32,10 @@
                             <font color="#FFFFFF">Table</font>
                         </a>
                     </li>
-                    <li class="nav-item " style=" padding: 0 5px 0 300px;">
+
+                </ul>
+                <ul class="navbar-nav  mb-2 mb-lg-0 " style=" padding: 0 5px 0 300px;">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#">
                             <font color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" color="#ea5771" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
                                     <circle cx="8" cy="8" r="8" />
@@ -40,7 +43,6 @@
                         </a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
