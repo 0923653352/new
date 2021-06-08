@@ -56,49 +56,52 @@
             <div id="map"></div>
             <script>
                 var locations = [
-                    ['วัดลาดปลาเค้า', 13.846876, 100.604481],
-                    ['หมู่บ้านอารียา', 13.847766, 100.605768],
-                    ['สปีดเวย์', 13.845235, 100.602711],
-                    ['สเต็ก ลุงหนวด', 13.862970, 100.613834]
+                    ['ราม1', 13.73520, 100.69927],
+                    ['พระราม 9 ไก่ย่าง', 13.73520, 100.69927],
+                    ['ยอดลาบเป็ดอุดร', 13.73520, 100.69927]
                 ];
 
                 function initMap() {
-                    var mapOptions = {
+                    const map = new google.maps.Map(document.getElementById("map"), {
+                        zoom: 5,
                         center: {
-                            lat: 13.847860,
-                            lng: 100.604274
+                            lat: 13.75284,
+                            lng: 100.61871
                         },
-                        zoom: 15,
-                    }
-
-                    var maps = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-                    var marker, i, info;
-
-                    for (i = 0; i < locations.length; i++) {
-
-                        marker = new google.maps.Marker({
-                            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                            map: maps,
-                            title: locations[i][0]
-                        });
-
-                        info = new google.maps.InfoWindow();
-
-                        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                            return function() {
-                                info.setContent(locations[i][0]);
-                                info.open(maps, marker);
-                            }
-                        })(marker, i));
-
-                    }
-
+                        mapTypeId: "terrain",
+                    });
+                    // Define the LatLng coordinates for the polygon's path.
+                    const triangleCoords = [{
+                            lat: 13.75981,
+                            lng: 100.62159
+                        },
+                        {
+                            lat: 13.74605,
+                            lng: 100.61270
+                        },
+                        {
+                            lat: 13.74318,
+                            lng: 100.63121
+                        },
+                        {
+                            lat: 13.75981,
+                            lng: 100.62159
+                        },
+                    ];
+                    // Construct the polygon.
+                    const bermudaTriangle = new google.maps.Polygon({
+                        paths: triangleCoords,
+                        strokeColor: "#FF0000",
+                        strokeOpacity: 0.8,
+                        strokeWeight: 2,
+                        fillColor: "#FF0000",
+                        fillOpacity: 0.35,
+                    });
+                    bermudaTriangle.setMap(map);
                 }
             </script>
 
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK3RgqSLy1toc4lkh2JVFQ5ipuRB106vU&callback=initMap" async defer></script>
-
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-NoP20OejFNd_gxMizvmRCDHwRPg0gJI&callback=initMap" async defer></script>
         </div>
     </div>
 </div>

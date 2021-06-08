@@ -35,23 +35,23 @@
                           <div class="content">
                               <div class="card-body" style="background-color:#009f98;">
                                   <h4 class="card-title  ">อุณหภูมิ
-                                      <div class="text-center h4">
+                                      <div class="text-center ">
                                           35 C
                                       </div>
-                                      </h3>
-                                      <p class="card-text "><a href="#" class="btn btn-light">
-                                              <svg xmlns="http://www.w3.org/2000/svg" color="#ea5771" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
-                                                  <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
-                                                  <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                                  </h4>
+                                  <p class="card-text "><a href="#" class="btn btn-light">
+                                          <svg xmlns="http://www.w3.org/2000/svg" color="#ea5771" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                                              <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+                                              <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                                          </svg>
+                                          <font color=“#000000” class="display-7"> เพิ่มขึ้น 26
+                                              <svg xmlns="http://www.w3.org/2000/svg" color="#dc3545" width="13" height="13" fill="currentColor" class="bi bi-thermometer-sun" viewBox="0 0 16 16">
+                                                  <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V2.5a.5.5 0 0 1 1 0v8.585A1.5 1.5 0 0 1 5 12.5z" />
+                                                  <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1zm5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm4.243 1.757a.5.5 0 0 1 0 .707l-.707.708a.5.5 0 1 1-.708-.708l.708-.707a.5.5 0 0 1 .707 0zM8 5.5a.5.5 0 0 1 .5-.5 3 3 0 1 1 0 6 .5.5 0 0 1 0-1 2 2 0 0 0 0-4 .5.5 0 0 1-.5-.5zM12.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 1 1 0 1h-1a.5.5 0 0 1-.5-.5zm-1.172 2.828a.5.5 0 0 1 .708 0l.707.708a.5.5 0 0 1-.707.707l-.708-.707a.5.5 0 0 1 0-.708zM8.5 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5z" />
                                               </svg>
-                                              <font color=“#000000” class="display-7"> เพิ่มขึ้น 26
-                                                  <svg xmlns="http://www.w3.org/2000/svg" color="#dc3545" width="13" height="13" fill="currentColor" class="bi bi-thermometer-sun" viewBox="0 0 16 16">
-                                                      <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V2.5a.5.5 0 0 1 1 0v8.585A1.5 1.5 0 0 1 5 12.5z" />
-                                                      <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1zm5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm4.243 1.757a.5.5 0 0 1 0 .707l-.707.708a.5.5 0 1 1-.708-.708l.708-.707a.5.5 0 0 1 .707 0zM8 5.5a.5.5 0 0 1 .5-.5 3 3 0 1 1 0 6 .5.5 0 0 1 0-1 2 2 0 0 0 0-4 .5.5 0 0 1-.5-.5zM12.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 1 1 0 1h-1a.5.5 0 0 1-.5-.5zm-1.172 2.828a.5.5 0 0 1 .708 0l.707.708a.5.5 0 0 1-.707.707l-.708-.707a.5.5 0 0 1 0-.708zM8.5 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5z" />
-                                                  </svg>
-                                              </font>
-                                          </a>
-                                      </p>
+                                          </font>
+                                      </a>
+                                  </p>
                               </div>
                           </div>
                       </div>
@@ -61,7 +61,7 @@
                           <div class="content">
                               <div class="card-body" style=" background-color:#0066ff;">
                                   <h5 class="card-title ">ความชื้นในอากาศ
-                                      <div class="text-center display-7">
+                                      <div class="text-center">
                                           <h3>100 %</h3>
                                       </div>
                                   </h5>
@@ -109,11 +109,11 @@
                       <div class="col-lg-2">
                           <div class="content">
                               <div class="card-body" style=" background-color:#93b200;">
-                                  <h3 class="card-title display-7">เเสง
-                                      <div class="text-center display-7">
+                                  <h4 class="card-title ">เเสง
+                                      <div class="text-center ">
                                           987 lux
                                       </div>
-                                  </h3>
+                                  </h4>
                                   <p class="card-text ">
                                       <a href="#" class="btn btn-light">
                                           <svg xmlns="http://www.w3.org/2000/svg" color="#D22D36" width="25" height="25" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
@@ -134,8 +134,8 @@
                       <div class="col-lg-2">
                           <div class="content">
                               <div class="card-body" style=" background-color:#00388d;">
-                                  <h3 class="card-title display-7">คุณภาพน้ำ<div class="text-center display-7">84 pH</div>
-                                  </h3>
+                                  <h4 class="card-title ">คุณภาพน้ำ <div class="text-center ">84 pH</div>
+                                  </h4>
                                   <p class="card-text "><a href="#" class="btn btn-light">
                                           <svg xmlns="http://www.w3.org/2000/svg" color="#D22D36" width="25" height="25" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
                                               <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
@@ -156,12 +156,12 @@
                       <div class="col-lg-2">
                           <div class="content">
                               <div class="card-body" style=" background-color:#009653;">
-                                  <h3 class="card-title display-7">
+                                  <h4 class="card-title ">
                                       ระดับน้ำ
-                                      <div class="text-center display-7">
+                                      <div class="text-center ">
                                           18 mm
                                       </div>
-                                  </h3>
+                                  </h4>
                                   <p class="card-text "><a href="#" class="btn btn-light">
                                           <svg xmlns="http://www.w3.org/2000/svg" color="#5b3701" width="25" height="25" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
                                               <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
