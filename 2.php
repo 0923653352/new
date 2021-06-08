@@ -87,6 +87,22 @@
                             lat: 13.75981,
                             lng: 100.62159
                         },
+                        {
+                            lat: 13.74845,
+                            lng: 100.62431
+                        },
+                        {
+                            lat: 13.74738,
+                            lng: 100.62466
+                        },
+                        {
+                            lat: 13.74731,
+                            lng: 100.62440
+                        },
+                        {
+                            lat: 13.74845,
+                            lng: 100.62431
+                        },
                     ];
                     // Construct the polygon.
                     const bermudaTriangle = new google.maps.Polygon({
