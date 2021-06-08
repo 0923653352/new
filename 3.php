@@ -89,4 +89,40 @@
 
     <center>
         <div id="curve_chart" style="width: 100%; height: 600px;   "></div>
+        <script type="text/javascript">
+            google.charts.load('current', {
+                'packages': ['corechart']
+            });
+            google.charts.setOnLoadCallback(drawChart);
+
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['month', 'เเสง(lux)'],
+                    ['เดือนที่1', 1000],
+                    ['เดือนที่2', 1170],
+                    ['เดือนที่3', 660],
+                    ['เดือนที่4', 1030],
+                    ['เดือนที่5', 1000],
+                    ['เดือนที่6', 1170],
+                    ['เดือนที่7', 660],
+                    ['เดือนที่8', 1030],
+                    ['เดือนที่9', 1000],
+                    ['เดือนที่10', 1170],
+                    ['เดือนที่11', 660],
+                    ['เดือนที่12', 1030]
+                ]);
+
+                var options = {
+                    title: '',
+                    curveType: 'function',
+                    legend: {
+                        position: 'bottom'
+                    }
+                };
+
+                var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+                chart.draw(data, options);
+            }
+        </script>
     </center>&nbsp;&nbsp;&nbsp;
