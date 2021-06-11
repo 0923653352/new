@@ -63,17 +63,19 @@
 
                 function initMap() {
                     const map = new google.maps.Map(document.getElementById("map"), {
-                        zoom: 5,
+                        zoom: 15,
                         center: {
                             lat: 13.75284,
-                            lng: 100.61871
+                            lng: 100.61871 //มหาวิทยาลัยรามคำเเหง
                         },
-                        mapTypeId: "terrain",
+                        mapTypeId: "terrain"
                     });
+
                     // Define the LatLng coordinates for the polygon's path.
+
                     const triangleCoords = [{
-                            lat: 13.75981,
-                            lng: 100.62159
+                            lat: 13.75827,
+                            lng: 100.62234
                         },
                         {
                             lat: 13.74605,
@@ -84,10 +86,14 @@
                             lng: 100.63121
                         },
                         {
-                            lat: 13.75981,
-                            lng: 100.62159
+                            lat: 13.75827,
+                            lng: 100.62234
                         },
-                        {
+
+                    ];
+
+                    kawpolygon(map, triangleCoords); //เรียกฟังชัน kawpolygon
+                    const triangleCoords2 = [{ //เรียกpolygon เพื่อวาดmap
                             lat: 13.74845,
                             lng: 100.62431
                         },
@@ -104,6 +110,11 @@
                             lng: 100.62431
                         },
                     ];
+
+                    kawpolygon(map, triangleCoords2);
+                }
+
+                function kawpolygon(map, triangleCoords) {
                     // Construct the polygon.
                     const bermudaTriangle = new google.maps.Polygon({
                         paths: triangleCoords,
